@@ -55,6 +55,6 @@ def fernetDecrypt(key):
     return decryptedFile
 
 
-fernetEncrypt(createFernetKey())
+#fernetEncrypt(createFernetKey())
 
 fernetDecrypt(readFernetKey())
